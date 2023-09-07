@@ -1,0 +1,116 @@
+.section-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 52px;
+  margin-bottom: 110px;
+  &__content {
+    max-width: 493px;
+  }
+
+  &__info {
+    margin-top: 85px;
+  }
+
+  &__title {
+    color: var(--main-title);
+    font-family: var(--ff);
+    font-size: 53px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.3px;
+    text-transform: uppercase;
+    max-width: 600px;
+    line-height: 78px;
+    text-align: end;
+  }
+
+  &__btn {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+
+  &__line {
+    position: absolute;
+    top: 259px;
+    right: 136px;
+  }
+
+  &__light {
+    position: absolute;
+    top: 158px;
+    left: 641px;
+  }
+
+  &__skills {
+  }
+  .section-main {
+    &__skills {
+    }
+  }
+  .skills {
+    display: grid;
+    gap: 39px;
+  }
+  .skills-ach {
+    display: flex;
+    align-items: center;
+    gap: 92px;
+    margin-top: 68px;
+    &__item {
+    }
+
+    &__count {
+      color: #f5f5f5;
+      font-family: var(--ff);
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 180%;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    &__title {
+      color: #f9ce37;
+      font-family: var(--ff);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 180%;
+      text-transform: capitalize;
+    }
+  }
+  .skills-tech {
+    border-top: 1px solid #777676;
+    border-bottom: 1px solid #777676;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    &__item {
+    }
+  }
+
+  .developer {
+  }
+  .cv {
+    border-radius: 29px;
+    border: 1px solid #777676;
+    padding: 32px;
+    &__text {
+      color: var(--c-text);
+      font-family: var(--ff-second);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 180%;
+      text-transform: capitalize;
+      margin-bottom: 22px;
+    }
+
+    &__btn {
+    }
+  }
+}
